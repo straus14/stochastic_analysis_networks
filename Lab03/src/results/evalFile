@@ -1,0 +1,11 @@
+#!/bin/bash
+export FILENAME=ParameterStudy.txt
+rm $FILENAME
+touch $FILENAME
+for file in ParameterStudy-*.vec
+do
+tail -n 1 $file >> $FILENAME
+done
+awk '{print $4}' $FILENAME | sort > availabilities.txt
+gnuplot gnuplot.cmd
+gv ParameterStudy.eps

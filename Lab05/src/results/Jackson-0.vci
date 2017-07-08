@@ -1,0 +1,36 @@
+file 13563832 1452428325                                        
+version 2
+run Jackson-0-20160110-13:18:37-4349
+attr configname Jackson
+attr datetime 20160110-13:18:37
+attr experiment Jackson
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network lab05.Jackson
+attr processid 4349
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 0  Jackson.queue1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1  Jackson.queue2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 3  Jackson.sink1  lifeTime:vector  ETV
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, vector"
+attr unit  s
+vector 2  Jackson.sink  lifeTime:vector  ETV
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, vector"
+attr unit  s
+0	880 6045513 0 1011732 0 99999.729956034705 203391 0 27 603183 3606955
+1	6046393 3265222 0 1011735 0 100000.339792412732 110015 0 14 137097 345295
+2	9311615 611753 203 1011694 21.818612923917 99996.375218829544 14356 0.000319174478 45.112345023079 38767.36391042 243153.3875033
+3	9923368 3640464 10 1011724 1.731580927411 99999.06787221175 85440 0.003725197425 54.859791731846 282565.14321367 1844528.7190584

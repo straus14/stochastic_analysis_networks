@@ -1,0 +1,190 @@
+version 2
+run Jackson-0-20160110-13:18:37-4349
+attr configname Jackson
+attr datetime 20160110-13:18:37
+attr experiment Jackson
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network lab05.Jackson
+attr processid 4349
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Jackson.source 	created:last 	99799
+attr interpolationmode  none
+attr title  "the number of jobs created, last"
+scalar Jackson.queue1 	busy:timeavg 	0.71140339121035
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar Jackson.queue1 	queueingTime:mean 	1.2333289581517
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar Jackson.queue1 	queueingTime:max 	14.439911471941
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar Jackson.queue1 	queueLength:timeavg 	1.7579317904722
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar Jackson.queue1 	queueLength:max 	27
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Jackson.queue1 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar Jackson.queue2 	busy:timeavg 	0.42658709114061
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar Jackson.queue2 	queueingTime:mean 	0.24766543907358
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar Jackson.queue2 	queueingTime:max 	5.508394738532
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar Jackson.queue2 	queueLength:timeavg 	0.3174540044655
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar Jackson.queue2 	queueLength:max 	14
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Jackson.queue2 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+statistic Jackson.router1 	routing_matrix_count:histogram
+field count 142535
+field mean 0.89928087838075
+field stddev 0.30095749802982
+field sum 128179
+field sqrsum 128179
+field min 0
+field max 1
+attr source  routing_matrix_count
+attr title  "routing probabilites, histogram"
+bin	-INF	0
+bin	-1	0
+bin	0	14356
+bin	1	128179
+bin	2	0
+statistic Jackson.router2 	routing_matrix_count:histogram
+field count 128177
+field mean 0.33342175273255
+field stddev 0.47143761145503
+field sum 42737
+field sqrsum 42737
+field min 0
+field max 1
+attr source  routing_matrix_count
+attr title  "routing probabilites, histogram"
+bin	-INF	0
+bin	-1	0
+bin	0	85440
+bin	1	42737
+bin	2	0
+scalar Jackson.sink 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar Jackson.sink 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar Jackson.sink 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar Jackson.sink 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar Jackson.sink 	queuesVisited:mean 	1.2045137921427
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar Jackson.sink 	queuesVisited:max 	12
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar Jackson.sink 	totalServiceTime:mean 	0.8508998191665
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink 	totalServiceTime:max 	7.79164425635
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink 	totalQueueingTime:mean 	1.8495295421055
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink 	totalQueueingTime:max 	41.462962867941
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink 	lifeTime:mean 	2.700429361272
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink 	lifeTime:max 	45.112345023079
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s
+scalar Jackson.sink1 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar Jackson.sink1 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar Jackson.sink1 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar Jackson.sink1 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar Jackson.sink1 	queuesVisited:mean 	1.6316011235955
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar Jackson.sink1 	queuesVisited:max 	14
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar Jackson.sink1 	totalServiceTime:mean 	1.188914108933
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink1 	totalServiceTime:max 	12.359897526977
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink1 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink1 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink1 	totalQueueingTime:mean 	2.1182621927251
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink1 	totalQueueingTime:max 	47.711131408367
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar Jackson.sink1 	lifeTime:mean 	3.3071763016581
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar Jackson.sink1 	lifeTime:max 	54.859791731846
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s

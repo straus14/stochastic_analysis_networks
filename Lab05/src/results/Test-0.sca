@@ -1,0 +1,132 @@
+version 2
+run Test-0-20160110-22:07:38-11515
+attr configname Test
+attr datetime 20160110-22:07:38
+attr experiment Test
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network lab05.test_net
+attr processid 11515
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar test_net.sourceMensa 	created:last 	-nan
+attr interpolationmode  none
+attr title  "the number of jobs created, last"
+scalar test_net.queue 	busy:timeavg 	0.99953095684803
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar test_net.queue 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar test_net.queue 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar test_net.queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar test_net.queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar test_net.queue 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar test_net.sink 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar test_net.sink 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar test_net.sink 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar test_net.sink 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar test_net.sink 	queuesVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar test_net.sink 	queuesVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar test_net.sink 	totalServiceTime:mean 	5
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar test_net.sink 	totalServiceTime:max 	5
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar test_net.sink 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar test_net.sink 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar test_net.sink 	totalQueueingTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar test_net.sink 	totalQueueingTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar test_net.sink 	lifeTime:mean 	5
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar test_net.sink 	lifeTime:max 	5
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s
+statistic test_net.routerMeal 	routing_matrix_count:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  routing_matrix_count
+attr title  "routing probabilites, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0

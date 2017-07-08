@@ -1,0 +1,352 @@
+version 2
+run MensaVita-0-20160110-23:56:54-14948
+attr configname MensaVita
+attr datetime 20160110-23:56:54
+attr experiment MensaVita
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network lab05.MensaVita
+attr processid 14948
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar MensaVita.sourceMensa 	created:last 	-nan
+attr interpolationmode  none
+attr title  "the number of jobs created, last"
+statistic MensaVita.routerMeal 	routing_matrix_count:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  routing_matrix_count
+attr title  "routing probabilites, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar MensaVita.TellerGericht 	busy:timeavg 	0.0086513275055
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.TellerGericht 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.TellerGericht 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.TellerGericht 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.TellerGericht 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.TellerGericht 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Vegetarisch 	busy:timeavg 	0.0076935260955667
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Vegetarisch 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Vegetarisch 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Vegetarisch 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Vegetarisch 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Vegetarisch 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Pasta 	busy:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Pasta 	queueingTime:mean 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Pasta 	queueingTime:max 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Pasta 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Pasta 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Pasta 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Klassisch 	busy:timeavg 	0.0037440016186667
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Klassisch 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Klassisch 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Klassisch 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Klassisch 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Klassisch 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.TagesEmpfehlung 	busy:timeavg 	0.0078290168925
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.TagesEmpfehlung 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.TagesEmpfehlung 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.TagesEmpfehlung 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.TagesEmpfehlung 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.TagesEmpfehlung 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Pizza 	busy:timeavg 	0.0058859856522667
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Pizza 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Pizza 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Pizza 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Pizza 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Pizza 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Grill 	busy:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Grill 	queueingTime:mean 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Grill 	queueingTime:max 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Grill 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Grill 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Grill 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.Buffet 	busy:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.Buffet 	queueingTime:mean 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.Buffet 	queueingTime:max 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.Buffet 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.Buffet 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.Buffet 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.KasseBar 	busy:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.KasseBar 	queueingTime:mean 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.KasseBar 	queueingTime:max 	-nan
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.KasseBar 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.KasseBar 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.KasseBar 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.KasseBC1 	busy:timeavg 	0.0075290801862667
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.KasseBC1 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.KasseBC1 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.KasseBC1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.KasseBC1 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.KasseBC1 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.KasseBC2 	busy:timeavg 	0.0081314388995
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.KasseBC2 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.KasseBC2 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.KasseBC2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.KasseBC2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.KasseBC2 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.KasseBC3 	busy:timeavg 	0.011286052440633
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MensaVita.KasseBC3 	queueingTime:mean 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MensaVita.KasseBC3 	queueingTime:max 	0
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MensaVita.KasseBC3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MensaVita.KasseBC3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MensaVita.KasseBC3 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MensaVita.sink 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar MensaVita.sink 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar MensaVita.sink 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar MensaVita.sink 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar MensaVita.sink 	queuesVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar MensaVita.sink 	queuesVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar MensaVita.sink 	totalServiceTime:mean 	0.3645025757454
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar MensaVita.sink 	totalServiceTime:max 	0.474748949852
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar MensaVita.sink 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar MensaVita.sink 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar MensaVita.sink 	totalQueueingTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar MensaVita.sink 	totalQueueingTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar MensaVita.sink 	lifeTime:mean 	0.3645025757454
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar MensaVita.sink 	lifeTime:max 	0.474748949852
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s

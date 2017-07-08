@@ -1,0 +1,35 @@
+file 1091 1450024612                                            
+version 2
+run MM11_3-0-20151213-17:36:33-25043
+attr configname MM11_3
+attr datetime 20151213-17:36:33
+attr experiment MM11_3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MM11_3
+attr processid 25043
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1
+
+vector 0  MM11_3.queue1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1  MM11_3.queue2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2  MM11_3.queue3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 3  MM11_3.snk1  lifeTime:vector  ETV
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, vector"
+attr unit  s
+0	854 54 0 25 0 71.716568390124 3 0 1 1 1
+1	908 31 0 29 0 73.980656922025 2 0 1 1 1
+2	939 8 0 0 0 0 1 0 0 0 0
+3	947 144 5 26 29.662807512027 71.716568390124 4 0.968838725026 26.964778379468 36.442516160916 765.09487779445

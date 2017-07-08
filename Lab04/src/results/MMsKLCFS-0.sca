@@ -1,0 +1,96 @@
+version 2
+run MMsKLCFS-0-20151205-17:31:35-3058
+attr configname MMsKLCFS
+attr datetime 20151205-17:31:35
+attr experiment MMsKLCFS
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MMa
+attr processid 3058
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar MMa.src1 	created:last 	33
+attr interpolationmode  none
+attr title  "the number of jobs created, last"
+scalar MMa.snk1 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar MMa.snk1 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar MMa.snk1 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar MMa.snk1 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar MMa.snk1 	queuesVisited:mean 	0.4
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar MMa.snk1 	queuesVisited:max 	2
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar MMa.snk1 	totalServiceTime:mean 	10.043933860127
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar MMa.snk1 	totalServiceTime:max 	38.452218691418
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar MMa.snk1 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar MMa.snk1 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar MMa.snk1 	totalQueueingTime:mean 	0.4939885711055
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar MMa.snk1 	totalQueueingTime:max 	6.233981368146
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar MMa.snk1 	lifeTime:mean 	10.537922431232
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar MMa.snk1 	lifeTime:max 	38.452218691418
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s
+scalar MMa.pq1 	queueingTime:mean 	2.4699428555275
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MMa.pq1 	queueingTime:max 	6.233981368146
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MMa.pq1 	queueLength:timeavg 	0.081750666310173
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MMa.pq1 	queueLength:max 	2
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MMa.pq1 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MMa.srv1 	busy:timeavg 	0.75496615604086
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MMa.srv2 	busy:timeavg 	0.59253017620466
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MMa.srv3 	busy:timeavg 	0.48097051393838
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"

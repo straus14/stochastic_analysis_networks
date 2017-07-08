@@ -1,0 +1,13 @@
+#!/bin/bash
+export FILENAME=MMsKBlockProb.txt
+rm $FILENAME
+touch $FILENAME
+for file in MMsKBlockProb-*.sca
+do
+awk -f evalBlockProb.awk $file >> $FILENAME
+done
+sort $FILENAME > blockProbs.txt
+awk -f evalMeanVar.awk blockProbs.txt
+gnuplot gnuplotBlockProb.cmd
+gv BlockProbs.eps &
+

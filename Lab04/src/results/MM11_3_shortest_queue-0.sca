@@ -1,0 +1,130 @@
+version 2
+run MM11_3_shortest_queue-0-20151213-20:38:57-29790
+attr configname MM11_3_shortest_queue
+attr datetime 20151213-20:38:57
+attr experiment MM11_3_shortest_queue
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MM11_3
+attr processid 29790
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1
+
+scalar MM11_3.src1 	created:last 	19969
+attr interpolationmode  none
+attr title  "the number of jobs created, last"
+scalar MM11_3.queue1 	busy:timeavg 	0.85570480500434
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MM11_3.queue1 	queueingTime:mean 	6.5245071638081
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MM11_3.queue1 	queueingTime:max 	89.548194972316
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MM11_3.queue1 	queueLength:timeavg 	0.56473701287316
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MM11_3.queue1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MM11_3.queue1 	dropped:count 	1521
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MM11_3.queue2 	busy:timeavg 	0.63924735225034
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MM11_3.queue2 	queueingTime:mean 	5.5420597762832
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MM11_3.queue2 	queueingTime:max 	87.952548585505
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MM11_3.queue2 	queueLength:timeavg 	0.35112978177675
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MM11_3.queue2 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MM11_3.queue2 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MM11_3.queue3 	busy:timeavg 	0.33894509672701
+attr interpolationmode  sample-hold
+attr title  "server busy state, timeavg"
+scalar MM11_3.queue3 	queueingTime:mean 	4.0926390628152
+attr interpolationmode  none
+attr title  "queueing time at dequeue, mean"
+attr unit  s
+scalar MM11_3.queue3 	queueingTime:max 	65.036515927563
+attr interpolationmode  none
+attr title  "queueing time at dequeue, max"
+attr unit  s
+scalar MM11_3.queue3 	queueLength:timeavg 	0.14143551338082
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar MM11_3.queue3 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar MM11_3.queue3 	dropped:count 	0
+attr interpolationmode  none
+attr title  "drop event, count"
+scalar MM11_3.snk1 	generation:mean 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, mean"
+scalar MM11_3.snk1 	generation:max 	0
+attr interpolationmode  none
+attr title  "the generation of the arrived jobs, max"
+scalar MM11_3.snk1 	delaysVisited:mean 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, mean"
+scalar MM11_3.snk1 	delaysVisited:max 	0
+attr interpolationmode  none
+attr title  "the total number of delays visited by arrived jobs, max"
+scalar MM11_3.snk1 	queuesVisited:mean 	0.58278217499729
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, mean"
+scalar MM11_3.snk1 	queuesVisited:max 	1
+attr interpolationmode  none
+attr title  "the total number of queues visited by arrived jobs, max"
+scalar MM11_3.snk1 	totalServiceTime:mean 	9.9420623751458
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, mean"
+attr unit  s
+scalar MM11_3.snk1 	totalServiceTime:max 	94.641755748861
+attr interpolationmode  none
+attr title  "the total time spent  by arrived jobs, max"
+attr unit  s
+scalar MM11_3.snk1 	totalDelayTime:mean 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, mean"
+attr unit  s
+scalar MM11_3.snk1 	totalDelayTime:max 	0
+attr interpolationmode  none
+attr title  "the total time spent in delay nodes by arrived jobs, max"
+attr unit  s
+scalar MM11_3.snk1 	totalQueueingTime:mean 	5.7318326263611
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, mean"
+attr unit  s
+scalar MM11_3.snk1 	totalQueueingTime:max 	89.548194972316
+attr interpolationmode  none
+attr title  "the total time spent in queues by arrived jobs, max"
+attr unit  s
+scalar MM11_3.snk1 	lifeTime:mean 	15.673895001507
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, mean"
+attr unit  s
+scalar MM11_3.snk1 	lifeTime:max 	100.13833319708
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, max"
+attr unit  s

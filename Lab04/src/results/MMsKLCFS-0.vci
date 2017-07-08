@@ -1,0 +1,27 @@
+file 2010 1449333251                                            
+version 2
+run MMsKLCFS-0-20151205-17:31:35-3058
+attr configname MMsKLCFS
+attr datetime 20151205-17:31:35
+attr experiment MMsKLCFS
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MMa
+attr processid 3058
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 1  MMa.pq1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 0  MMa.snk1  lifeTime:vector  ETV
+attr interpolationmode  none
+attr title  "lifetime of arrived jobs, vector"
+attr unit  s
+0	606 1108 8 156 16.538680103301 181.249541840139 30 0.20425588399 38.452218691418 316.13767293697 5426.884044279
+1	1714 296 0 152 0 175.158717608309 13 0 2 10 14

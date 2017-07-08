@@ -1,0 +1,3 @@
+message bittype {
+	bool bitval;
+}
